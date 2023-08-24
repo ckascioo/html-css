@@ -1,0 +1,97 @@
+@charset "UTF=8";
+
+@font-face {
+    font-family: "android"; src: url(fontes/idroid.otf) format('opentype');
+}
+
+body {
+    background-image: linear-gradient(to right, #f1d8c9, #f2c3a7);
+}
+
+header {
+    background-image: linear-gradient(rgb(150, 235, 150), darkgreen);
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+}
+
+header > h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+header > p {
+    text-align: center;
+}
+
+nav {
+    background-color: rgb(0, 94, 0);
+    padding: 5px;
+    font-size: 12px;
+    box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.459);
+}
+nav > a {
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    margin-right: 20px;
+    text-decoration: none;
+    
+}
+
+main {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(150, 120, 103, 0.588);
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+}
+
+.android {
+    font-family: android;
+    color: rgb(6, 109, 6);
+}
+
+.androidh2 {
+    font-family: android;
+    color: rgb(9, 122, 9);
+    font-size: 16px;
+    background-image: linear-gradient(to left, #ffffff, rgb(241, 241, 241));
+    padding-left: 5px;
+}
+
+p {
+    text-align: justify;
+    
+}
+
+.sub {
+    background-color: rgba(0, 128, 0, 0.705);
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 8px 8px 0px 0px;
+    margin: 10px 0px 0px 0px;
+}
+
+article {
+    background-color: #f5e2d698;
+    padding: 10px;
+    margin-top: 0px;
+    border-radius: 0px 0px 8px 8px;
+}
+
+
+
+footer {
+    background-color: darkgreen; 
+    color: white;
+    text-align: center;
+}
+
+footer > h2 {    
+    font-size: 12px;
+    padding: 5px;
+}
